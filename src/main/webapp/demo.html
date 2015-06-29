@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Demo application</title>
+    <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  
+  <script type="text/javascript" src="/scripts/demo.js"></script>
+</head>
+
+<h2>
+    Spring Boot Bitwise Application 
+</h2>
+        <div ng-app="" ng-controller="demoController">
+			Demo page<br><br>
+			
+	        <h3>Wellcome <red>{{member.firstName}} {{member.lastName}}!<red></h3>
+			<a href="rest/login/out">Logout.</a><br>
+			Response: {{ error }}<br>
+        </div>
+</html>
